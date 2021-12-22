@@ -13,7 +13,7 @@ This is a Travel Map pinning web app developed using Node.js, MongoDB, React.js 
    -> yarn add bcrypt
    
 3. Add a new file in backend folder as ".env" and add the "MONGO_URL" of your mongodb.
-   -> MONGO_URL = mongodb+srv://aman:<password>@cluster0.jh0ng.mongodb.net/pin?retryWrites=true&w=majority
+   -> MONGO_URL = "your mongo url token"
    
 4. In package.json (inside backend folder), under scripts tag, add:
    -> "start": "nodemon index.js"
@@ -31,7 +31,7 @@ This is a Travel Map pinning web app developed using Node.js, MongoDB, React.js 
    -> yarn add timeago.js
    
 8. Add a new file in frontend as ".env" and add your Mapbox token:
-   -> REACT_APP_MAPBOX = <your token>
+   -> REACT_APP_MAPBOX = "your Mapbox token"
    
 9. In package.json (inside the frontend directory), add proxy at the last:
    -> "proxy": "http://localhost:8800/api"
